@@ -15,8 +15,8 @@ DEFAULT_SCENES = {
     "mashup": "world/maps/_mashup/_mashup_main_scene.isc",
 }
 
-# Actors that are not shown in the game.
-ALWAYS_HIDDEN = {"mashup": ["x_square"]}
+# Actors that are never rendered (none at the moment; --hide hides more per render).
+ALWAYS_HIDDEN = {}
 
 # The CentralShape*_ON/OFF_Top/Bottom quads (the star pieces at top/bottom centre) are
 # drawn bigger in the game than their serialized SCALE gives with the engine's 2x2

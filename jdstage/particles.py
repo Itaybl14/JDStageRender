@@ -70,9 +70,15 @@ class EmitterDef:
         period = self.freq if self.freq > 0 else 0.1
         if self.freq_curve.is_set:
             v = self.freq_curve.at(0.0)
-            mult = 0.5 * (v[0] + v[1])
-            if mult > 0:
-                period *= mult
+            mid = 0.5 * (v[0] + v[1])
+            if int(p.get("genEmitMode", 0) or 0) != 1:
+                # ITF_ParticleGenerator: with a frequency curve the value is a rate
+                # (particles per second) and the emit period is its inverse. The engine
+                # ignores the curve in all-at-once mode (genEmitMode 1).
+                if mid > 0:
+                    period = 1.0 / mid
+            elif mid > 0:
+                period *= mid  # all-at-once emitters: unchanged
         # never exceed maxParticles alive at once
         self.period = max(period, avg_life / self.max_particles)
 

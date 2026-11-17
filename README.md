@@ -7,11 +7,11 @@ Renders a Just Dance mashup map's **mainsequence** over the game's generated
 is Mashup (6). You get a video (or PNG sequence) with the stage, the coach video
 composited on top, and the song audio.
 
-https://github.com/user-attachments/assets/9b41c02b-aac9-42f4-a489-744f615447b7
+https://github.com/user-attachments/assets/2d5d2f96-3a33-4a61-a2ca-dd13cb22f6ff
 
 *30-second sample: Give Me Everything (Mashup), 1080p.*
 
-**Full video:** https://youtu.be/Y-I2EZa-z88
+**Full video:** https://youtu.be/61YB27QcGaY
 
 The stage is not a recording. It is rebuilt from the game's own data: the stage scene,
 actor templates, material shaders, textures, meshes, particle FX and tapes. The engine's
