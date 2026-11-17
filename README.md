@@ -107,7 +107,6 @@ jdstage/               Renderer: scene/tape evaluation, materials, CPU + GPU ras
 data/                  Mashup stage assets extracted from the game (world/maps/_mashup, gameconfig)
 templates/             Editor templates and UI images
 bin/                   ffmpeg.exe / ffprobe.exe (download separately, see Requirements)
-docs/                  Showcase clip
 ```
 
 ## Known limitations
