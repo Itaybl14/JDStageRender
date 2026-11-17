@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# ffmpeg/ffprobe are over GitHub's 100 MB file limit: download them separately
+bin/
+# editor backups and render output
+*.bak
+*_mashup.mp4
+*_preview.mp4
