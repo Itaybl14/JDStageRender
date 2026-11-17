@@ -9,7 +9,7 @@ composited on top, and the song audio.
 
 https://github.com/user-attachments/assets/REPLACE-WITH-UPLOADED-SHOWCASE
 
-*30-second sample ([docs/showcase.mp4](docs/showcase.mp4)): Give Me Everything (Mashup), 720p.
+*30-second sample ([docs/showcase.mp4](docs/showcase.mp4)): Give Me Everything (Mashup), 1080p.
 Full showcase: https://youtu.be/Y-I2EZa-z88*
 
 The stage is not a recording. It is rebuilt from the game's own data: the stage scene,
