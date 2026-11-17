@@ -7,8 +7,9 @@ Renders a Just Dance mashup map's **mainsequence** over the game's generated
 is Mashup (6). You get a video (or PNG sequence) with the stage, the coach video
 composited on top, and the song audio.
 
-**▶ [Watch the 30-second sample](https://github.com/Itaybl14/JDStageRender/blob/main/docs/showcase.mp4)**
-*(Give Me Everything (Mashup), 1080p)*
+https://github.com/user-attachments/assets/9b41c02b-aac9-42f4-a489-744f615447b7
+
+*30-second sample: Give Me Everything (Mashup), 1080p.*
 
 **Full video:** https://youtu.be/Y-I2EZa-z88
 
